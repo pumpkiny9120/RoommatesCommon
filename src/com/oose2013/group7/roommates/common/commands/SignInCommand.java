@@ -5,6 +5,7 @@ import com.oose2013.group7.roommates.common.interfaces.Command;
 public class SignInCommand implements Command {
 	private String username;
 	private String password;
+	private String CLASSNAME = "SignInCommand";
 	
 	public SignInCommand (String username, String password) {
 		this.username = username;
